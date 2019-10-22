@@ -1,0 +1,7 @@
+isodate >= 0.6.0
+requests >= 2.22.0
+
+# We use reimplemented version of Holocron from master branch because it
+# has not been released yet. Unreleased version feels like a completely
+# brand new software, so we have no other choice but patiently wait. 8)
+git+https://github.com/ikalnytskyi/holocron.git@dffed7c
