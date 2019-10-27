@@ -1,0 +1,101 @@
+html, body, div, span, h1, h2, h3, h4, p,
+a, img, strong, i, ul, li,
+article, aside, canvas, details,
+figure, figcaption, footer, header,
+menu, nav, section, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+    font: 18px 'Philosopher', serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url('background-texture.svg');
+}
+.content {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    width: 600px;
+    min-height: 300px;
+    padding: 20px 65px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, .95);
+    border: 1px solid rgb(245, 245, 245);
+}
+.logo {
+    width: 145px;
+    margin: 0 auto;
+}
+.logo img { width: 100%; }
+
+.icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #700;
+}
+
+.latest-podcast { position: relative; }
+.latest-podcast audio { width: 100%; }
+
+.latest-podcast-title {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 22px;
+}
+.latest-podcast-title + audio + ul {
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    list-style-type: circle;
+}
+
+.latest-podcast-title + audio + ul li {
+    padding-bottom: 5px;
+    line-height: 20px;
+}
+
+.latest-podcast-title + audio + ul li:last-child {
+    padding-bottom: 0;
+}
+
+.latest-podcast-title + audio + ul li a {
+    color: #00447c;
+}
+
+.latest-podcast-title + audio + ul li a:hover {
+    color: #326996;
+}
+
+.prev-arrow,
+.next-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 80px;
+    color: #404040;
+    text-decoration: none;
+}
+
+.next-arrow {
+    left: 10px;
+}
+
+.prev-arrow {
+    right: 10px;
+}

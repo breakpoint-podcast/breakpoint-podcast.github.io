@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Подкаст «Breakpoint»</title>
+    <link>https://breakpoint-podcast.github.io</link>
+    <description>Беседы о программной инженерии, мире ИТ и не только.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Holocron/v0.4.0</generator>
+    <language>uk</language>
+    <lastBuildDate>Sun, 27 Oct 2019 20:54:44 +0000</lastBuildDate>
+    <itunes:category text="Technology">
+      <itunes:category text="Software How-To"/>
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+    <itunes:owner>
+      <itunes:name>rkiyanchuk, ikalnitskyi, rpodoliaka</itunes:name>
+      <itunes:email>ruslan.kiyanchuk+breakpoint@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:subtitle>Беседы о программной инженерии, мире ИТ и не только.</itunes:subtitle>
+    <itunes:summary>pass</itunes:summary>
+    <item>
+      <title>HTTP over QUIC</title>
+      <link>https://breakpoint-podcast.github.io/</link>
+      <description>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"&gt;
+  &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
+  &lt;title&gt;Подкаст «Breakpoint»&lt;/title&gt;
+
+  &lt;link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet"&gt;
+  &lt;link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet"&gt;
+  &lt;link rel="stylesheet" href="/static/styles.css"&gt;
+
+  &lt;!-- favicons for most use case --&gt;
+  &lt;link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"&gt;
+  &lt;link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"&gt;
+  &lt;link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"&gt;
+  &lt;link rel="manifest" href="/site.webmanifest"&gt;
+  &lt;link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"&gt;
+  &lt;meta name="msapplication-TileColor" content="#da532c"&gt;
+  &lt;meta name="theme-color" content="#ffffff"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;main class="container"&gt;
+    &lt;section class="content"&gt;
+      &lt;div class="logo"&gt;
+        &lt;img src="/static/logo.svg" alt="Qubit Podcast Logo" /&gt;
+      &lt;/div&gt;
+      &lt;div class="latest-podcast"&gt;
+        &lt;h2 class="latest-podcast-title"&gt;#001 - HTTP over QUIC&lt;/h2&gt;
+        &lt;audio preload="none" controls&gt;
+          &lt;source src="https://github.com/breakpoint-podcast/episodes/releases/download/001/breakpoint-001.mp3" type="audio/mp3"&gt;
+          Your browser does not support the audio element.
+        &lt;/audio&gt;
+        &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.cloudflare.com/http3-the-past-present-and-future/"&gt;HTTP over QUIC&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- meta: duration="24:03" --&gt;
+      &lt;/div&gt;
+      
+      
+    &lt;/section&gt;
+  &lt;/main&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
+      <guid isPermaLink="false">/</guid>
+      <enclosure url="https://github.com/breakpoint-podcast/episodes/releases/download/001/breakpoint-001.mp3" length="23256382" type="audio/mp3"/>
+    </item>
+    <item>
+      <title>HTTP over QUIC</title>
+      <link>https://breakpoint-podcast.github.io/</link>
+      <description>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"&gt;
+  &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
+  &lt;title&gt;Подкаст «Breakpoint»&lt;/title&gt;
+
+  &lt;link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet"&gt;
+  &lt;link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet"&gt;
+  &lt;link rel="stylesheet" href="/static/styles.css"&gt;
+
+  &lt;!-- favicons for most use case --&gt;
+  &lt;link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"&gt;
+  &lt;link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"&gt;
+  &lt;link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"&gt;
+  &lt;link rel="manifest" href="/site.webmanifest"&gt;
+  &lt;link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"&gt;
+  &lt;meta name="msapplication-TileColor" content="#da532c"&gt;
+  &lt;meta name="theme-color" content="#ffffff"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;main class="container"&gt;
+    &lt;section class="content"&gt;
+      &lt;div class="logo"&gt;
+        &lt;img src="/static/logo.svg" alt="Qubit Podcast Logo" /&gt;
+      &lt;/div&gt;
+      &lt;div class="latest-podcast"&gt;
+        &lt;h2 class="latest-podcast-title"&gt;#001 - HTTP over QUIC&lt;/h2&gt;
+        &lt;audio preload="none" controls&gt;
+          &lt;source src="https://github.com/breakpoint-podcast/episodes/releases/download/001/breakpoint-001.mp3" type="audio/mp3"&gt;
+          Your browser does not support the audio element.
+        &lt;/audio&gt;
+        &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.cloudflare.com/http3-the-past-present-and-future/"&gt;HTTP over QUIC&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- meta: duration="24:03" --&gt;
+      &lt;/div&gt;
+      
+      
+    &lt;/section&gt;
+  &lt;/main&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
+      <guid isPermaLink="false">/episodes/001/</guid>
+      <enclosure url="https://github.com/breakpoint-podcast/episodes/releases/download/001/breakpoint-001.mp3" length="23256382" type="audio/mp3"/>
+    </item>
+  </channel>
+</rss>
