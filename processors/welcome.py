@@ -10,6 +10,7 @@ def process(app, stream):
     # Latest episode must be the welcome page. We've got to think how to
     # make this rule declarative and set it in .holocron.yml.
     first = copy.deepcopy(head[0])
+    first["source"] = pathlib.Path("welcome://")
     first["destination"] = pathlib.Path("index.html")
     yield first
 
