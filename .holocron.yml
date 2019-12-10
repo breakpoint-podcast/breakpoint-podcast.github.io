@@ -41,6 +41,8 @@ pipes:
           description:
             $ref: 'metadata:#/description'
           language: uk
+          itunes_author:
+            $ref: metadata:#/authors
           itunes_subtitle:
             $ref: 'metadata:#/description'
           itunes_category:
