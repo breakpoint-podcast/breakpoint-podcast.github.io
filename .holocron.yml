@@ -55,6 +55,7 @@ pipes:
               $ref: metadata:#/authors
             email: ruslan.kiyanchuk+breakpoint@gmail.com
           itunes_image: https://breakpoint-podcast.github.io/static/itunes.png
+          itunes_explicit: "no"
         item:
           id:
             $ref: item:#/url
