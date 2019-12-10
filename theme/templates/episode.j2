@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{ metadata.name }}</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
   <link rel="stylesheet" href="/static/styles.css">
 
   <!-- favicons for most use case -->
@@ -16,14 +16,14 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileColor" content="#2e3440">
   <meta name="theme-color" content="#ffffff">
 </head>
 <body>
   <main class="container">
     <section class="content">
-      <div class="logo">
-        <img src="/static/logo.svg" alt="Qubit Podcast Logo" />
+      <div class="header">
+        <img class="logo" src="/static/logo.svg"/>
       </div>
       <div class="latest-podcast">
         <h2 class="latest-podcast-title">#{{ item.episode_number }} - {{ item.name }}</h2>
@@ -31,9 +31,11 @@
           <source src="{{ item.enclosure_url }}" type="{{ item.enclosure_type }}">
           Your browser does not support the audio element.
         </audio>
+        <div class="episode-content">
         {{ item.content | safe }}
+        </div>
       </div>
-      {% if item.previous %}<a class="next-arrow" title="Go to next episode" href="{{ item.previous.url }}">⟪</a>{% endif %}
+      {% if item.prev %}<a class="next-arrow" title="Go to next episode" href="{{ item.prev.url }}">⟪</a>{% endif %}
       {% if item.next %}<a class="prev-arrow" title="Go to previous episode" href="{{ item.next.url }}">⟫</a>{% endif %}
     </section>
   </main>

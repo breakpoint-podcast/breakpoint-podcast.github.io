@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="100.68613mm"
-   height="23.774496mm"
-   viewBox="0 0 100.68613 23.774496"
+   width="110mm"
+   height="110mm"
+   viewBox="0 0 110 110"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 5da689c313, 2019-01-14"
-   sodipodi:docname="logo.svg">
+   sodipodi:docname="favicon.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="158.54435"
-     inkscape:cy="-24.292747"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="301.51127"
+     inkscape:cy="-141.89021"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,22 +56,23 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-75.760401,-73.225503)">
+     transform="translate(-75.760401,13.000001)">
     <path
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#5e81ac;fill-opacity:1;stroke:none;stroke-width:0.37274843;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 0 0 L 0 89.855469 L 29.101562 89.855469 L 78.820312 89.855469 L 113.69922 89.855469 L 152.56445 89.855469 L 192.84766 89.855469 L 227.53711 89.855469 L 227.9082 89.855469 L 273.31641 89.855469 L 273.71289 89.855469 L 306.72656 89.855469 L 358.30859 89.855469 L 380.54688 44.927734 L 358.30859 0 L 306.72656 0 L 273.71289 0 L 273.31641 0 L 227.9082 0 L 227.53906 0 L 192.84766 0 L 152.56445 0 L 113.69922 0 L 78.820312 0 L 29.101562 0 L 0 0 z "
-       transform="matrix(0.26458333,0,0,0.26458333,75.760401,73.225503)"
-       id="text817" />
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#5e81ac;fill-opacity:1;stroke:none;stroke-width:0.1953516;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 80.838521,-8.2916933 V 92.18892 h 7.147938 12.211941 8.56697 9.54609 9.89439 8.52043 0.0912 11.15318 0.0974 8.10883 12.6696 L 181.79221,41.948616 168.84649,-8.2916933 h -12.6696 -8.10883 -0.0974 -11.15318 -0.0907 -8.52091 -9.89438 -9.5461 -8.56697 -12.211941 z"
+       id="text817"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0.26458332px;word-spacing:0px;fill:#eceff4;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="85.006851"
-       y="89.566666"
+       x="101.30491"
+       y="60.71767"
        id="text888"><tspan
          sodipodi:role="line"
          id="tspan886"
-         x="85.006851"
-         y="89.566666"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono';letter-spacing:0.26458332px;fill:#eceff4;fill-opacity:1;stroke-width:0.26458332">breakpoint_</tspan></text>
+         x="101.30491"
+         y="60.71767"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.79999924px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono';letter-spacing:0.26458332px;fill:#eceff4;fill-opacity:1;stroke-width:0.26458332">bp</tspan></text>
   </g>
 </svg>

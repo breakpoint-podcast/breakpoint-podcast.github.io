@@ -9,7 +9,7 @@ pipes:
     - name: import-processors
       imports:
         - episodes = episodes:process
-        - chain = chain:process
+        - chain = holocron._processors.chain:process
         - welcome = welcome:process
       from_: "%(here)s/processors"
 
@@ -26,10 +26,6 @@ pipes:
           direction: desc
 
         - name: welcome
-
-        - name: jinja2
-          template: episode.j2
-          themes: ["%(here)s/theme"]
 
     - name: when
       when:
@@ -48,7 +44,6 @@ pipes:
           language: uk
           itunes_subtitle:
             $ref: 'metadata:#/description'
-          itunes_summary: pass
           itunes_category:
             - cat: Technology
               sub: Software How-To
@@ -58,6 +53,7 @@ pipes:
             name:
               $ref: metadata:#/authors
             email: ruslan.kiyanchuk+breakpoint@gmail.com
+          itunes_image: https://breakpoint-podcast.github.io/static/itunes.png
         item:
           id:
             $ref: item:#/url
@@ -76,6 +72,18 @@ pipes:
               $ref: item:#/enclosure_type
             length:
               $ref: item:#/enclosure_size
+          published:
+            $ref: item:#/published_at
+          itunes_duration:
+            $ref: item:#/duration
+
+    - name: when
+      when:
+        - item.source.match("episode://*") or item.source.match("welcome://")
+      processor:
+        name: jinja2
+        template: episode.j2
+        themes: ["%(here)s/theme"]
 
     - name: source
       path: favicon/
