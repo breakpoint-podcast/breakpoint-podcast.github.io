@@ -9,7 +9,6 @@ pipes:
     - name: import-processors
       imports:
         - episodes = episodes:process
-        - chain = holocron._processors.chain:process
         - welcome = welcome:process
       from_: "%(here)s/processors"
 
