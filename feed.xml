@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Holocron/v0.4.0</generator>
     <language>uk</language>
-    <lastBuildDate>Tue, 10 Dec 2019 23:08:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2019 21:56:18 +0000</lastBuildDate>
     <itunes:author>rkiyanchuk, ikalnitskyi, rpodoliaka</itunes:author>
     <itunes:category text="Technology">
       <itunes:category text="Software How-To"/>
@@ -21,16 +21,35 @@
     </itunes:owner>
     <itunes:subtitle>Беседы о программной инженерии, мире ИТ и не только.</itunes:subtitle>
     <item>
+      <title>Аппаратные криптографические ключи и 2FA</title>
+      <link>https://breakpoint-podcast.github.io/episodes/002/</link>
+      <description>&lt;p&gt;Что такое двухфакторная аутентификация и аппаратные криптографические ключи,&#13;
+зачем они нужны, и как ими пользоваться.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.yubico.com/products/yubikey-hardware/"&gt;Yubikey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wiki.archlinux.org/index.php/YubiKey"&gt;Yubikey tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cloud.google.com/titan-security-key/"&gt;Titan Security Key&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Теперь аппаратными ключами можно пользоваться и в &lt;a href="https://twitter.com/rmondello/status/1204466020909342720"&gt;Safari под iOS 13.3&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- meta: duration="46:56" --&gt;</description>
+      <guid isPermaLink="false">/episodes/002/</guid>
+      <enclosure url="https://github.com/breakpoint-podcast/episodes/releases/download/002/breakpoint-002.mp3" length="66022056" type="audio/mp3"/>
+      <pubDate>Wed, 11 Dec 2019 08:56:58 +0000</pubDate>
+      <itunes:duration>46:56</itunes:duration>
+    </item>
+    <item>
       <title>HTTP over QUIC</title>
-      <link>https://breakpoint-podcast.github.io/episodes/001/</link>
-      <description>&lt;ul&gt;
+      <link>https://breakpoint-podcast.github.io/episodes/002/</link>
+      <description>&lt;p&gt;Первый пилотный выпуск!&lt;/p&gt;
+&lt;p&gt;Обсуждаем &lt;a href="https://tools.ietf.org/html/draft-ietf-quic-http-24"&gt;стандарт HTTP/3&lt;/a&gt;, использующий в качестве транспорта протокол QUIC, и его &lt;a href="https://blog.cloudflare.com/enjoy-a-slice-of-quic-and-rust/"&gt;эксперементальную реализацию&lt;/a&gt; от CloudFlare.&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://blog.cloudflare.com/http3-the-past-present-and-future/"&gt;HTTP over QUIC&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- meta: duration="24:03" --&gt;</description>
+&lt;!-- meta: duration="24:45" --&gt;</description>
       <guid isPermaLink="false">/episodes/001/</guid>
-      <enclosure url="https://github.com/breakpoint-podcast/episodes/releases/download/001/breakpoint-001.mp3" length="23256382" type="audio/mp3"/>
+      <enclosure url="https://github.com/breakpoint-podcast/episodes/releases/download/002/breakpoint-002.mp3" length="66022056" type="audio/mp3"/>
       <pubDate>Tue, 22 Oct 2019 06:25:11 +0000</pubDate>
-      <itunes:duration>24:03</itunes:duration>
+      <itunes:duration>24:45</itunes:duration>
     </item>
   </channel>
 </rss>
