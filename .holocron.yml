@@ -1,7 +1,9 @@
 metadata:
-  name: Подкаст «Breakpoint»
-  description: Беседы о программной инженерии, мире ИТ и не только.
-  authors: rkiyanchuk, ikalnitskyi, rpodoliaka
+  name: breakpoint_ подкаст
+  description: |
+    Разговоры о программой инженерии и информационных технологиях.
+    Смотрим в суть вещей, и не стесняемся делиться своим мнением.
+  authors: Руслан (@rkiyanchuk), Игорь (@ikalnitskyi), Роман (@rpodoliaka)
   url: https://breakpoint-podcast.github.io
 
 pipes:
@@ -53,7 +55,7 @@ pipes:
           itunes_owner:
             name:
               $ref: metadata:#/authors
-            email: ruslan.kiyanchuk+breakpoint@gmail.com
+            email: breakpoint_@xsnippet.org
           itunes_image: https://breakpoint-podcast.github.io/static/itunes.png
           itunes_explicit: "no"
         item:
