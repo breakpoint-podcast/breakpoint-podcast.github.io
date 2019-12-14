@@ -9,30 +9,28 @@ metadata:
 pipes:
   compile:
     - name: import-processors
-      imports:
-        - episodes = episodes:process
-        - welcome = welcome:process
-      from_: "%(here)s/processors"
+      args:
+        imports:
+          - custom/get-episodes-from-github = episodes:process
+          - custom/set-welcome-episode = welcome:process
+        from_: "%(here)s/processors"
 
-    - name: pipe
-      pipe:
-        - name: episodes
-          repository: breakpoint-podcast/episodes
-          enclosure: breakpoint-{tag_name}.mp3
+    - name: custom/get-episodes-from-github
+      args:
+        repository: breakpoint-podcast/episodes
+        enclosure: breakpoint-{tag_name}.mp3
 
-        - name: commonmark
+    - name: commonmark
 
-        - name: chain
-          order_by: published_at
-          direction: desc
+    - name: chain
+      args:
+        order_by: published_at
+        direction: desc
 
-        - name: welcome
+    - name: custom/set-welcome-episode
 
-    - name: when
-      when:
-        - item.source.match("episode://*")
-      processor:
-        name: feed
+    - name: feed
+      args:
         syndication_format: rss
         feed:
           title:
@@ -80,17 +78,20 @@ pipes:
             $ref: item:#/published_at
           itunes_duration:
             $ref: item:#/duration
-
-    - name: when
       when:
-        - item.source.match("episode://*") or item.source.match("welcome://")
-      processor:
-        name: jinja2
+        - item.source.match("episode://*")
+
+    - name: jinja2
+      args:
         template: episode.j2
         themes: ["%(here)s/theme"]
+      when:
+        - item.source.match("episode://*") or item.source.match("welcome://")
 
     - name: source
-      path: favicon/
+      args:
+        path: favicon/
 
     - name: save
-      to: _site
+      args:
+        to: _site
