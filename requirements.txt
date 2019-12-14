@@ -4,4 +4,4 @@ requests >= 2.22.0
 # We use reimplemented version of Holocron from master branch because it
 # has not been released yet. Unreleased version feels like a completely
 # brand new software, so we have no other choice but patiently wait. 8)
-git+https://github.com/ikalnytskyi/holocron.git@32906d91fbf4a32739fcd22be63aa7f8a7bfdd5c
+git+https://github.com/ikalnytskyi/holocron.git@90f3a4f9517b93434c6d50bb574727cb14a1061c
