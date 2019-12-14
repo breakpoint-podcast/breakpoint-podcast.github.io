@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Подкаст «Breakpoint»</title>
+    <title>breakpoint_ подкаст</title>
     <link>https://breakpoint-podcast.github.io</link>
-    <description>Беседы о программной инженерии, мире ИТ и не только.</description>
+    <description>Разговоры о программой инженерии и информационных технологиях.
+Смотрим в суть вещей, и не стесняемся делиться своим мнением.
+</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Holocron/v0.4.0</generator>
     <language>uk</language>
-    <lastBuildDate>Sat, 14 Dec 2019 09:37:46 +0000</lastBuildDate>
-    <itunes:author>rkiyanchuk, ikalnitskyi, rpodoliaka</itunes:author>
+    <lastBuildDate>Sat, 14 Dec 2019 10:27:58 +0000</lastBuildDate>
+    <itunes:author>Руслан (@rkiyanchuk), Игорь (@ikalnitskyi), Роман (@rpodoliaka)</itunes:author>
     <itunes:category text="Technology">
       <itunes:category text="Software How-To"/>
       <itunes:category text="Tech News"/>
@@ -16,10 +18,12 @@
     <itunes:image href="https://breakpoint-podcast.github.io/static/itunes.png"/>
     <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
-      <itunes:name>rkiyanchuk, ikalnitskyi, rpodoliaka</itunes:name>
-      <itunes:email>ruslan.kiyanchuk+breakpoint@gmail.com</itunes:email>
+      <itunes:name>Руслан (@rkiyanchuk), Игорь (@ikalnitskyi), Роман (@rpodoliaka)</itunes:name>
+      <itunes:email>breakpoint_@xsnippet.org</itunes:email>
     </itunes:owner>
-    <itunes:subtitle>Беседы о программной инженерии, мире ИТ и не только.</itunes:subtitle>
+    <itunes:subtitle>Разговоры о программой инженерии и информационных технологиях.
+Смотрим в суть вещей, и не стесняемся делиться своим мнением.
+</itunes:subtitle>
     <item>
       <title>Аппаратные криптографические ключи и 2FA</title>
       <link>https://breakpoint-podcast.github.io/episodes/002/</link>
