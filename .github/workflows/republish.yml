@@ -1,9 +1,7 @@
 name: Republish to GitHub Pages
 
 on:
-  repository_dispatch:
-    types:
-      - publish
+  - repository_dispatch
 
 jobs:
   publish:
