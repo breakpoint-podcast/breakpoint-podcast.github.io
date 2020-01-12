@@ -9,7 +9,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Holocron/v0.4.0</generator>
     <language>uk</language>
-    <lastBuildDate>Sun, 15 Dec 2019 22:30:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2020 18:08:55 +0000</lastBuildDate>
     <itunes:author>Руслан (@rkiyanchuk), Игорь (@ikalnitskyi), Роман (@rpodoliaka)</itunes:author>
     <itunes:category text="Technology">
       <itunes:category text="Software How-To"/>
@@ -24,6 +24,22 @@
     <itunes:subtitle>Разговоры о программой инженерии и информационных технологиях.
 Смотрим в суть вещей, и не стесняемся делиться своим мнением.
 </itunes:subtitle>
+    <item>
+      <title>Нововведения в Python 3.8</title>
+      <link>https://breakpoint-podcast.github.io/episodes/003/</link>
+      <description>&lt;p&gt;Обсуждаем полезные и не очень &lt;a href="https://docs.python.org/3/whatsnew/3.8.html"&gt;нововведения в Python 3.8&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Оператор присвоения в выражениях (&lt;code&gt;:=&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Синтаксис декларации позиционных параметров&lt;/li&gt;
+&lt;li&gt;Префикс для кеширования &lt;code&gt;.pyc&lt;/code&gt; файлов&lt;/li&gt;
+&lt;li&gt;Совместимось ABI для отладочных и релизных билдов&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- meta: duration="48:09" --&gt;</description>
+      <guid isPermaLink="false">/episodes/003/</guid>
+      <enclosure url="https://github.com/breakpoint-podcast/episodes/releases/download/003/breakpoint-003.mp3" length="65556235" type="audio/mp3"/>
+      <pubDate>Sat, 11 Jan 2020 21:48:45 +0000</pubDate>
+      <itunes:duration>48:09</itunes:duration>
+    </item>
     <item>
       <title>Аппаратные криптографические ключи и 2FA</title>
       <link>https://breakpoint-podcast.github.io/episodes/002/</link>
